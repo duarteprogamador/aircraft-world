@@ -1,12 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aircraft World</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .botao {
+      background-color: #0847f5;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 100px;
+      cursor: pointer;
+    }
+    .mensagem {
+      margin-top: 20px;
+      display: none;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bem-vindo ao Aircraft World!</h1>
-  <p>Este é o começo do seu site, já no ar!</p>
+
+  </script>
+
+<body>
+
+    <h1 style="text-align: center;">Bem-vindo ao Aircraft World</h1>
+    <p style="text-align: center;">Este é um site simples em desenvolvimento. </p>
+
 </body>
+
 </html>
+<img src="c:\Users\user\Downloads\Gemini_Generated_Image_z1vj6yz1vj6yz1vj.png" alt="Aircraft World" style="display: block; margin: 0 auto; width: 500px; height: 350px;">
+
+<h2 style="font-size:20x; color: rgb(0, 0, 0); text-align: center; margin-top:20px;">
+  Buscar aeronave 
+</h2>
+  
+
+<div style="display: flex; justify-content: center; margin-top: 10px;">
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <input id="campoBusca" type="text" placeholder="Digite algo..." style="padding: 8px; font-size: 16px;">
+    <button onclick="buscar()" style="padding: 8px 16px; font-size: 16px; border-radius: 25px; background-color: #ff8800; color: white;">
+      Pesquisar
+    </button>
+  </div>
+</div>
+
+<script>
+  function buscar() {
+    const valor = document.getElementById("campoBusca").value.toLowerCase();
+
+    if (valor === "pr-gea") {
+      window.location.href = "https://draeronaves.com.br/det_foto/matricula/7687/PR-GEA/Boeing-737-700/Gol-Linhas-A%C3%A9reas.html";
+    } else if (valor === "contato") {
+      window.location.href = "contato.html";
+    } else {
+      alert("Página não encontrada.");
+    }
+  }
+</script>
